@@ -7,7 +7,9 @@ from brain_games.cli import welcome_user
 
 def make_random_number() -> int:
 
-    return randint(1, 99)
+    random_number = randint(1, 99)
+
+    return random_number
 
 
 def is_even_number(number):
