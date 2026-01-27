@@ -1,4 +1,4 @@
-from random import randint
+import random
 
 import prompt
 
@@ -7,9 +7,7 @@ from brain_games.cli import welcome_user
 
 def make_random_number() -> int:
 
-    random_number = randint(1, 99)
-
-    return random_number
+    return random.randint(1, 99)
 
 
 def is_even_number(number):
