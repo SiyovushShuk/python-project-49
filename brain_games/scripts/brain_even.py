@@ -40,7 +40,7 @@ def main():
             print('Correct!')
         else:
             print(f"{user_answer} is wrong answer ;(. Correct answer was '{correct_answer}'.")  # noqa: E501
-            print(f"Let's try again, {username}")
+            print(f"Let's try again, {username}!")
             break
     else:
         print(f'Congratulations, {username}!')
