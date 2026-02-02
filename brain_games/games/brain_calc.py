@@ -1,5 +1,7 @@
 import random
-from typing import List
+from typing import List, Tuple
+
+import prompt
 
 from brain_games.engine import make_random_number
 
@@ -12,7 +14,7 @@ def get_random_math_operation() -> str:
     return random_operation
 
 
-def brain_calc():
+def brain_calc() -> Tuple[int, int]:
     first_number = make_random_number()
     second_number = make_random_number()
     math_operation = get_random_math_operation()
@@ -24,6 +26,8 @@ def brain_calc():
             correct_answer = first_number + second_number
 
         case '*': 
-            correct_answer = first_number * second_number 
+            correct_answer = first_number * second_number
 
-    return correct_answer
+    user_answer = prompt.integer('Your answer: ') 
+
+    return correct_answer, user_answer

@@ -6,7 +6,7 @@ from brain_games.games.brain_calc import brain_calc
 def main():
 
     username = welcome_user()
-    print('AWhat is the result of the expression?')
+    print('What is the result of the expression?')
 
     start_game(username, brain_calc())
 
