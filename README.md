@@ -4,4 +4,4 @@
 
 ### Demo
 
-[![asciicast](https://asciinema.org/a/f7PFESuaJDFZTnXv.svg)](https://asciinema.org/a/f7PFESuaJDFZTnXv)
+[![asciicast](https://asciinema.org/a/MWw32Fk9V0JK6qxW.svg)](https://asciinema.org/a/MWw32Fk9V0JK6qxW)
