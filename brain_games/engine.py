@@ -1,7 +1,5 @@
 import random
 
-import prompt
-
 
 def make_random_number() -> int:
 
@@ -14,9 +12,7 @@ def start_game(username: str, game) -> None:
 
     for i in range(count_queastions):
 
-        correct_answer = game()
-
-        user_answer = prompt.integer('Your answer: ')
+        correct_answer, user_answer = game()
 
         if correct_answer == user_answer:
             print('Correct!')
