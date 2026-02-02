@@ -6,7 +6,7 @@ from brain_games.games.brain_gcd import brain_gcd
 def main():
 
     username = welcome_user()
-    print('What is the result of the expression?')
+    print('Find the greatest common divisor of given numbers.')
 
     start_game(username, brain_gcd)
 
