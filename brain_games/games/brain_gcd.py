@@ -5,12 +5,13 @@ import prompt
 from brain_games.engine import make_random_number
 
 
-def find_gcd(first_num, second_num):
+def find_gcd(first_num: int, second_num: int) -> int:
     while second_num != 0:
         first_num, second_num = second_num, first_num % second_num
     return first_num
 
-def brain_gcd():
+
+def brain_gcd() -> Tuple[int, int]:
 
     first_random_num = make_random_number()
     second_random_num = make_random_number()
