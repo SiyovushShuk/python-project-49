@@ -3,7 +3,7 @@ import random
 
 def make_random_number() -> int:
 
-    return random.randint(1, 99)
+    return random.randint(0, 99)
 
 
 def start_game(username: str, game) -> None:
