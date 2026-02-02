@@ -1,3 +1,7 @@
+from typing import Tuple
+
+import prompt
+
 from brain_games.engine import make_random_number
 
 
@@ -8,7 +12,7 @@ def is_even_number(number):
         return False
 
 
-def brain_even():
+def brain_even() -> Tuple[str, str]:
     random_number = make_random_number()
     print(f'Question: {random_number}')
 
@@ -17,4 +21,6 @@ def brain_even():
     else:
         correct_answer = 'no'
 
-    return correct_answer
+    user_answer = prompt.string('Your answer: ')
+
+    return correct_answer, user_answer
