@@ -16,7 +16,7 @@ def make_random_number() -> int:
 def start_game(
         username: str,
         game_round: Tuple[Any, Any],
-        count_queastions: int = 3
+        numbers_game_round: int = 3
         ) -> None:
     '''
     Function start game, check user answers.
@@ -25,8 +25,8 @@ def start_game(
     @param username: Username of player
     :type username: str
 
-    @param count_queastions: Numbers of game round. Default game has 3 rounds.
-    :type count_queastions: int
+    @param numbers_game_round: Numbers of game round. Default game has 3 rounds.
+    :type numbers_game_round: int
 
     @param game_round: Function of game round. Realize game logic. Print question, get user answer and find correct answer. Give back in first param correct answer, second answer user answer.
     :type game_round: Tuple[Any, Any]
@@ -34,9 +34,9 @@ def start_game(
     :return: function sends result of processing response 
     '''  # noqa: E501
 
-    count_queastions = 3
+    numbers_game_round = 3
 
-    for i in range(count_queastions):
+    for i in range(numbers_game_round):
 
         correct_answer, user_answer = game_round()
 
