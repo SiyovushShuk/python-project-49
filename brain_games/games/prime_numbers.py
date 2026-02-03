@@ -23,7 +23,7 @@ def is_prime_number(number: int) -> bool:
     return False
 
 
-def brain_prime() -> Tuple[str, str]:
+def generate_game_round() -> Tuple[str, str]:
     random_num = make_random_number()
     
     print(f'Question: {random_num}')
