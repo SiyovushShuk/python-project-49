@@ -32,7 +32,7 @@ def make_pregression_row(
     return progression_row
 
 
-def brain_progression() -> Tuple[int, int]:
+def generate_game_round() -> Tuple[int, int]:
 
     start_number = make_random_number()
 

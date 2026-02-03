@@ -1,6 +1,6 @@
 from brain_games.cli import welcome_user
 from brain_games.engine import start_game
-from brain_games.games.brain_progression import brain_progression
+from brain_games.games.progression import generate_game_round
 
 
 def main():
@@ -8,7 +8,7 @@ def main():
     username = welcome_user()
     print('What number is missing in the progression?')
 
-    start_game(username, brain_progression)
+    start_game(username, generate_game_round)
 
 
 if __name__ == "__main__":
