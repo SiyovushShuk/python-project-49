@@ -6,7 +6,7 @@ from brain_games.games.brain_progression import brain_progression
 def main():
 
     username = welcome_user()
-    print('Find the greatest common divisor of given numbers.')
+    print('What number is missing in the progression?')
 
     start_game(username, brain_progression)
 
