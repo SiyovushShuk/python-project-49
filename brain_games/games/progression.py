@@ -6,7 +6,7 @@ import prompt
 from brain_games.engine import make_random_number
 
 
-def make_answer_question(progression_row: List[int]) -> Tuple[str, int]:
+def _make_answer_question(progression_row: List[int]) -> Tuple[str, int]:
 
     random_index = random.randint(0, len(progression_row) - 1)
 
@@ -19,7 +19,7 @@ def make_answer_question(progression_row: List[int]) -> Tuple[str, int]:
     return question, answer
 
 
-def make_pregression_row(
+def _make_pregression_row(
         start_number: int, step: int, length: int
         ) -> List[int]:
     
@@ -40,11 +40,11 @@ def generate_game_round() -> Tuple[int, int]:
 
     length_progression = random.randint(5, 12)
 
-    progression_row = make_pregression_row(
+    progression_row = _make_pregression_row(
         start_number, step, length_progression
         )
     
-    question, correct_answer = make_answer_question(progression_row)
+    question, correct_answer = _make_answer_question(progression_row)
 
     print(f'Question: {question}')
 

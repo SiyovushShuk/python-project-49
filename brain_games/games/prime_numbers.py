@@ -6,7 +6,7 @@ import prompt
 from brain_games.engine import make_random_number
 
 
-def is_prime_number(number: int) -> bool:
+def _is_prime_number(number: int) -> bool:
 
     if number < 2:
         return False
@@ -28,7 +28,7 @@ def generate_game_round() -> Tuple[str, str]:
     
     print(f'Question: {random_num}')
 
-    if is_prime_number(random_num):
+    if _is_prime_number(random_num):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
