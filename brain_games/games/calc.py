@@ -14,7 +14,7 @@ def get_random_math_operation() -> str:
     return random_operation
 
 
-def brain_calc() -> Tuple[int, int]:
+def generate_game_round() -> Tuple[int, int]:
     first_number = make_random_number()
     second_number = make_random_number()
     math_operation = get_random_math_operation()
