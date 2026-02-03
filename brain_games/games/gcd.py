@@ -11,7 +11,7 @@ def find_gcd(first_num: int, second_num: int) -> int:
     return first_num
 
 
-def brain_gcd() -> Tuple[int, int]:
+def generate_game_round() -> Tuple[int, int]:
 
     first_random_num = make_random_number()
     second_random_num = make_random_number()
