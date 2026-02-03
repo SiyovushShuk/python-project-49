@@ -6,13 +6,13 @@ def make_random_number() -> int:
     return random.randint(0, 99)
 
 
-def start_game(username: str, game) -> None:
+def start_game(username: str, game_round) -> None:
 
     count_queastions = 3
 
     for i in range(count_queastions):
 
-        correct_answer, user_answer = game()
+        correct_answer, user_answer = game_round()
 
         if correct_answer == user_answer:
             print('Correct!')
