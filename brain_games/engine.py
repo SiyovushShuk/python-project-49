@@ -2,11 +2,17 @@ import random
 from typing import Any, Tuple
 
 
-def make_random_number() -> int:
+def make_random_number(start: int = 0, end: int = 99) -> int:
     '''
-    Function generate random number in the range from 0 to 99.
-    
-    :return: return random number in the range from 0 to 99.
+    Function generate random number in the range from start to end.
+
+    @param start: number start range for generate random number. Default num 0.
+    :type start: int
+
+    @param end: end number range for generate random number. Default num 99.
+    :type end: int
+
+    :return: return random number in the range from start to end.
     :rtype: int
     '''
 
