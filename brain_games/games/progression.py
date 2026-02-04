@@ -19,7 +19,7 @@ def _make_answer_question(progression_row: List[int]) -> Tuple[str, int]:
     return question, answer
 
 
-def _make_pregression_row(
+def _make_progression_row(
         start_number: int, step: int, length: int
         ) -> List[int]:
     
@@ -40,7 +40,7 @@ def generate_game_round() -> Tuple[int, int]:
 
     length_progression = random.randint(5, 12)
 
-    progression_row = _make_pregression_row(
+    progression_row = _make_progression_row(
         start_number, step, length_progression
         )
     
