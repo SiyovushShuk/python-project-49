@@ -16,7 +16,7 @@ brain-progression - find missed number in progression row.
 
 ### Recommended requiremnts
 
-Python version python 12.2
+Python version 12.2
 
 ### Links
 
