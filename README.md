@@ -52,4 +52,4 @@ Hello, Alex!
 
 ### Demo
 
-[![asciicast](https://asciinema.org/a/OWwFTaAJNO4bsHxV.svg)](https://asciinema.org/a/OWwFTaAJNO4bsHxV)
+[![asciicast](https://asciinema.org/a/XdAW2gxpvgpSqquz.svg)](https://asciinema.org/a/XdAW2gxpvgpSqquz)
