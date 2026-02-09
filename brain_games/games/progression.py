@@ -36,9 +36,9 @@ def generate_game_round() -> Tuple[int, int]:
 
     start_number = make_random_number()
 
-    step = random.randint(1, 10) #NOSONAR
+    step = random.randint(1, 10)  # NOSONAR
 
-    length_progression = random.randint(5, 12) #NOSONAR
+    length_progression = random.randint(5, 12)  # NOSONAR
 
     progression_row = _make_progression_row(
         start_number, step, length_progression

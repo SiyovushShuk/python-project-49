@@ -1,5 +1,5 @@
 import random
-from typing import Any, Tuple
+from typing import Callable
 
 
 def make_random_number(start: int = 0, end: int = 99) -> int:
@@ -21,7 +21,7 @@ def make_random_number(start: int = 0, end: int = 99) -> int:
 
 def start_game(
         username: str,
-        game_round: Tuple[Any, Any],
+        game_round: Callable,
         numbers_game_round: int = 3
         ) -> None:
     '''
