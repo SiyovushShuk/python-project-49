@@ -40,8 +40,6 @@ def start_game(
     :return: function sends result of processing response 
     '''  # noqa: E501
 
-    numbers_game_round = 3
-
     for _ in range(numbers_game_round):
 
         correct_answer, user_answer = game_round()
