@@ -8,7 +8,7 @@ from brain_games.engine import make_random_number
 
 def _make_answer_question(progression_row: List[int]) -> Tuple[str, int]:
 
-    random_index = random.randint(0, len(progression_row) - 1)
+    random_index = random.randint(0, len(progression_row) - 1)  # NOSONAR
 
     answer = progression_row[random_index]
 

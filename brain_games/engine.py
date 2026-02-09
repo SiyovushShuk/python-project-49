@@ -16,7 +16,7 @@ def make_random_number(start: int = 0, end: int = 99) -> int:
     :rtype: int
     '''
 
-    return random.randint(start, end)
+    return random.randint(start, end)  # NOSONAR
 
 
 def start_game(

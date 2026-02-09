@@ -9,7 +9,7 @@ from brain_games.engine import make_random_number
 def _get_random_math_operation() -> str:
 
     operations: List[str] = ['*', '+']
-    random_operation = operations[random.randint(0, len(operations) - 1)]
+    random_operation = operations[random.randint(0, len(operations) - 1)]  # NOSONAR  # noqa: E501
 
     return random_operation
 
