@@ -42,7 +42,7 @@ def start_game(
 
     numbers_game_round = 3
 
-    for i in range(numbers_game_round):
+    for _ in range(numbers_game_round):
 
         correct_answer, user_answer = game_round()
 
